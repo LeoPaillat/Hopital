@@ -1,5 +1,4 @@
 package hospital.dao;
-import java.util.List;
 
 import hospital.model.Visite;
 
