@@ -1,3 +1,4 @@
+package hospital.dao;
 	import java.util.List;
 
 	public interface DaoGeneric<T, K> {
