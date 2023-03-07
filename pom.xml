@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- project => balise racine a mettre sans se poser de questions-->
+	<!-- version 4.0.0-->
+	<modelVersion>4.0.0</modelVersion>
+	<!--infos du projet-->
+	<!--group id de l'applivation. group id s'apparente au package java mais pour un projet-->
+	<groupId>formationJava.soprasteria</groupId>
+	<!-- le nom du projet-->
+	<artifactId>Hospital</artifactId>
+	<!-- la version du projet -->
+	<!--X.X-SNAPSHOT => version en cours de developpement-->
+	<version>1.0-SNAPSHOT</version>
+	<!-- par defaut maven est en java5 -->
+	<properties>
+		<!-- proprietes stadard du projet-->
+		<!-- version du code source -->
+		<maven.compiler.source>15</maven.compiler.source>
+		<!-- version du code genere -->
+		<maven.compiler.target>15</maven.compiler.target>
+		<!-- java15-->
+		<!--l'encodage des fichiers sources du projet. L'encodage des systeme windows et *nix part default n'est pas le meme, permet de fixer l'encodage-->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<!-- on  besoin de mySQL-->
+		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.0.32</version>
+		</dependency>
+	</dependencies>
+</project>
