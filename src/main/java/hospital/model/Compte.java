@@ -30,44 +30,45 @@ public class Compte {
 		this.connecte = connecte;
 	}
 
-	public void setId() {
-		this.id=id;
-	}
-	
-	public void setLogin() {
-		this.login=login;
-	}
-	
-	public void setPassword() {
-		this.password=password;
-	}
-	
-	public void setTypeCompte () {
-	this.typeCompte=typeCompte;
-	}
-	
-	public void SetConnecte (boolean connecte) {
-		this.connecte=connecte;
-	}
 	
 	public int getId() {
 		return id;
 	}
-	
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getLogin() {
 		return login;
 	}
-	
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
 	public String getPassword() {
 		return password;
 	}
-	
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 	public String getTypeCompte() {
 		return typeCompte;
 	}
-	
-	public boolean getConnecte() {
+
+	public void setTypeCompte(String typeCompte) {
+		this.typeCompte = typeCompte;
+	}
+
+	public boolean isConnecte() {
 		return connecte;
+	}
+
+	public void setConnecte(boolean connecte) {
+		this.connecte = connecte;
 	}
 
 	@Override

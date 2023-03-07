@@ -27,6 +27,16 @@ public class Visite  {
 	}
 
 
+	public Visite(double cout, String salle, Date date, Patient patient, Compte medecin) {
+		super();
+		this.cout = cout;
+		this.salle = salle;
+		this.date = date;
+		this.patient = patient;
+		this.medecin = medecin;
+	}
+
+
 	public int getNumero() {
 		return numero;
 	}
@@ -80,7 +90,7 @@ public class Visite  {
 	}
 	
 	public int getIdMedecin () {
-		return getMedecin().getId(numero);
+		return getMedecin().getId();
 	}
 
 
