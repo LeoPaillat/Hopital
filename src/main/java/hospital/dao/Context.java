@@ -49,7 +49,7 @@ public class Context {
 			}
 		}
 
-		private void close() {
+		static void close() {
 			try {
 				connection.close();
 			} catch (SQLException e) {

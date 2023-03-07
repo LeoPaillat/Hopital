@@ -50,23 +50,23 @@ public class Compte {
 		this.connecte=connecte;
 	}
 	
-	public int getId(int id) {
+	public int getId() {
 		return id;
 	}
 	
-	public String getLogin(String login) {
+	public String getLogin() {
 		return login;
 	}
 	
-	public String getPassword(String password) {
+	public String getPassword() {
 		return password;
 	}
 	
-	public String getTypeCompte(String typeCompte) {
+	public String getTypeCompte() {
 		return typeCompte;
 	}
 	
-	public boolean getConnecte(boolean connecte) {
+	public boolean getConnecte() {
 		return connecte;
 	}
 
